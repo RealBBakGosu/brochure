@@ -23,23 +23,23 @@
 
         .btn {
             cursor: pointer;
-            border: 1px solid #3498db;
             background-color: transparent;
-            height: 50px;
-            width: 200px;
-            color: #3498db;
-            font-size: 1.5em;
-            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            background-size: cover;
+            display: inline-block;
         }
+
+        img.landscape {
+            width: 20%;
+            height: auto;
+        }
+
 	</style>
 </head>
 <body>
     <div>
-        <a href="westmoon_2022.pdf" download>
-            <button class="btn">
-                <img src="download2.png" alt="" width="20" height="20"/>
+            <button class="btn" onclick="window.location.href='westmoon_2022.pdf';" download>
+                <img src="download2.png" alt="" class="landscape"/>
             </button>
-        </a>
     </div>
 </body>
 </html>  
