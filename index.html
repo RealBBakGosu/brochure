@@ -33,12 +33,24 @@
             height: 10vh;
         }
 
+        .btn-group button {
+            border: 1px;
+            padding: 10px 24px; /* Some padding */
+            cursor: pointer; /* Pointer/hand icon */
+            width: 50%; /* Set a width if needed */
+            display: block; /* Make the buttons appear below each other */
+        }
+
+
 	</style>
 </head>
 <body>
-    <div>
+    <div class="btn-group">
+        <button class="btn" onclick="window.location.href='http:\\www.westmoon.kr';">
+            <img src="home4.png" alt="" class="landscape" />
+        </button>
         <button class="btn" onclick="window.location.href='westmoon_2022.pdf';" download>
-            <img src="download2.png" alt="" class="landscape"/>
+            <img src="download2.png" alt="" class="landscape" />
         </button>
     </div>
 </body>
